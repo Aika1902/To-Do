@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tool {
+        
+    }
     environment {
         EC2_IP = '18.218.241.19'
           EC2_USER = 'ubuntu'
